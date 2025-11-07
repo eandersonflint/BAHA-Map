@@ -5,8 +5,8 @@ body {
 
 @font-face {
   font-family:"Mackintosh";
-  src: url('font/Rennie Mackintosh ITC Bold/Rennie Mackintosh ITC Bold.otf') format('opentype'),
-  url('font/Rennie Mackintosh ITC Bold/Rennie Mackintosh ITC Bold.woff2') format('woff2');
+  src: url('BAHA-Map-main/font/Rennie Mackintosh ITC Bold/Rennie Mackintosh ITC Bold.otf') format('opentype'),
+  url('BAHA-Map-main/font/Rennie Mackintosh ITC Bold/Rennie Mackintosh ITC Bold.woff2') format('woff2');
 }
 
 #map {
