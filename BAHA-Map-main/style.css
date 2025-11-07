@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family:"Mackintosh";
+  src: url('font/Rennie Mackintosh ITC Bold/Rennie Mackintosh ITC Bold.otf') format('opentype'),
+  url('font/Rennie Mackintosh ITC Bold/Rennie Mackintosh ITC Bold.woff2') format('woff2');
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+  h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: rgba(249, 250, 208);
+    padding: 15px 20px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Mackintosh", sans-serif;
+    font-size: 60px;
+    color: #36135a;
+}
+
+.intro {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1000;
+  padding: 15px 20px;
+  margin: 0;
+  border-radius: 8px;
+  font-family:  font-family: 'EB Garamond', serif;
+  font-size: 12px;
+  color: #010b1b;
+}
+
+#infoButton {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  background-color: #cbcc9b;
+  color: #36135a;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-family: "Mackintosh", sans-serif;
+  font-size:20px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+
+#infoButton:hover {
+  background-color: #cbcc9b;
+}
